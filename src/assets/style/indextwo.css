@@ -1,0 +1,101 @@
+body{
+    background-color: #fff;
+}
+.content{
+    margin-top:3%;
+    text-align: center;
+}
+.content .search{
+    position: absolute;
+    left:0px;
+    z-index:-1;
+    width:84%;
+    height:30px;
+    padding-left: 10%;
+    border-radius: 5px;
+    color:#c9c9c9;
+    border:none;
+    margin: 0 3%;
+    background:#f6f6f6;
+}
+input::-webkit-input-placeholder { /* WebKit browsers 适配谷歌 */
+    color: #BDCADA;
+}
+
+/* .topleftFont{
+   
+    color: #fff;
+    position: absolute;
+    z-index: 1000;
+    top:5%;
+    left:5%;
+    font-weight: bold;
+} */
+video{
+    width:98%;
+    height:100%;
+    object-fit:fill;
+    border-radius: 5px;
+    
+    /* background: transparent url('./../laterImg/index_img_01@2x.png') no-repeat 1px 1px ;  */
+    /* -webkit-background-size: cover; 
+       -moz-background-size: cover; 
+         -o-background-size: cover; 
+            background-size: cover;  */
+    
+}
+#videoPalse{
+    position: absolute;
+    z-index: 100;
+    width:50px;
+    top:25%;
+    left:42%;
+    display: none;
+}
+
+#introFont{
+    width:94%;
+    margin-left: 3%;
+    text-align:left; 
+    font-size: 13px;
+    color:#777;
+    line-height: 20px;
+    padding-bottom: 5px;
+}
+#threeicon{
+    width:30px;
+    padding-top:5px;
+    padding-right:5px;
+}
+.center_img{
+    position: absolute;
+    height:30px;
+    top:45%;
+    left:30%;
+}
+.body_bottom{
+    width:94%;
+    margin-left:3%;
+}
+.body_bottom a{
+    display: inline-block;
+    width:50%;
+    height:100%;
+
+}
+
+.body_bottom img{
+    display: block;
+    width:100%;
+    height:100%;
+    vertical-align: middle;
+}
+footer{
+    display: block;
+    text-align: center;
+    font-size: 11px;
+    color:#9a9a9a;
+}
+/* .bottom_left{
+    float:left;
+} */
